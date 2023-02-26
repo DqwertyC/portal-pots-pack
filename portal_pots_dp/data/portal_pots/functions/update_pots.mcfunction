@@ -1,0 +1,3 @@
+execute as @e[type=minecraft:marker,tag=portal_pot] at @s run function portal_pots:update_pot/update_a_0
+execute as @e[type=minecraft:marker,tag=portal_pot,sort=random] at @s if block ~ ~1 ~ minecraft:hopper run function portal_pots:update_pot/update_b_0
+execute as @e[type=minecraft:marker,tag=portal_pot,sort=random] at @s if block ~ ~-1 ~ minecraft:hopper run function portal_pots:update_pot/update_c_0
