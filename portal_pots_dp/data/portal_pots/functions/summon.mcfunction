@@ -4,26 +4,26 @@ data modify entity @e[tag=newest,limit=1] data.shard_1 set from block ~ ~ ~ shar
 data modify entity @e[tag=newest,limit=1] data.shard_2 set from block ~ ~ ~ shards[2]
 data modify entity @e[tag=newest,limit=1] data.shard_3 set from block ~ ~ ~ shards[3]
 
-# Set the collar to make it easier to tell which pots are linked
-execute if entity @e[tag=newest,nbt={data:{shard_0:"minecraft:pottery_shard_archer"}}] align xyz summon minecraft:block_display run data merge entity @s {block_state:{Name:"minecraft:purple_terracotta"},transformation:{scale:[0.5f,0.030f,0.5f],translation:[0.25f,1.08f,0.25f]},Tags:["portal_pot"]}
-execute if entity @e[tag=newest,nbt={data:{shard_0:"minecraft:pottery_shard_arms_up"}}] align xyz summon minecraft:block_display run data merge entity @s {block_state:{Name:"minecraft:light_blue_terracotta"},transformation:{scale:[0.5f,0.030f,0.5f],translation:[0.25f,1.08f,0.25f]},Tags:["portal_pot"]}
-execute if entity @e[tag=newest,nbt={data:{shard_0:"minecraft:pottery_shard_prize"}}] align xyz summon minecraft:block_display run data merge entity @s {block_state:{Name:"minecraft:lime_terracotta"},transformation:{scale:[0.5f,0.030f,0.5f],translation:[0.25f,1.08f,0.25f]},Tags:["portal_pot"]}
-execute if entity @e[tag=newest,nbt={data:{shard_0:"minecraft:pottery_shard_skull"}}] align xyz summon minecraft:block_display run data merge entity @s {block_state:{Name:"minecraft:yellow_terracotta"},transformation:{scale:[0.5f,0.030f,0.5f],translation:[0.25f,1.08f,0.25f]},Tags:["portal_pot"]}
-execute align xyz summon minecraft:block_display run data merge entity @s {block_state:{Name:"minecraft:terracotta"},transformation:{scale:[0.5f,0.010f,0.5f],translation:[0.25f,1.11f,0.25f]},Tags:["portal_pot"]}
-execute if entity @e[tag=newest,nbt={data:{shard_1:"minecraft:pottery_shard_archer"}}] align xyz summon minecraft:block_display run data merge entity @s {block_state:{Name:"minecraft:purple_terracotta"},transformation:{scale:[0.5f,0.030f,0.5f],translation:[0.25f,1.12f,0.25f]},Tags:["portal_pot"]}
-execute if entity @e[tag=newest,nbt={data:{shard_1:"minecraft:pottery_shard_arms_up"}}] align xyz summon minecraft:block_display run data merge entity @s {block_state:{Name:"minecraft:light_blue_terracotta"},transformation:{scale:[0.5f,0.030f,0.5f],translation:[0.25f,1.12f,0.25f]},Tags:["portal_pot"]}
-execute if entity @e[tag=newest,nbt={data:{shard_1:"minecraft:pottery_shard_prize"}}] align xyz summon minecraft:block_display run data merge entity @s {block_state:{Name:"minecraft:lime_terracotta"},transformation:{scale:[0.5f,0.030f,0.5f],translation:[0.25f,1.12f,0.25f]},Tags:["portal_pot"]}
-execute if entity @e[tag=newest,nbt={data:{shard_1:"minecraft:pottery_shard_skull"}}] align xyz summon minecraft:block_display run data merge entity @s {block_state:{Name:"minecraft:yellow_terracotta"},transformation:{scale:[0.5f,0.030f,0.5f],translation:[0.25f,1.12f,0.25f]},Tags:["portal_pot"]}
-execute align xyz summon minecraft:block_display run data merge entity @s {block_state:{Name:"minecraft:terracotta"},transformation:{scale:[0.5f,0.010f,0.5f],translation:[0.25f,1.15f,0.25f]},Tags:["portal_pot"]}
-execute if entity @e[tag=newest,nbt={data:{shard_2:"minecraft:pottery_shard_archer"}}] align xyz summon minecraft:block_display run data merge entity @s {block_state:{Name:"minecraft:purple_terracotta"},transformation:{scale:[0.5f,0.030f,0.5f],translation:[0.25f,1.16f,0.25f]},Tags:["portal_pot"]}
-execute if entity @e[tag=newest,nbt={data:{shard_2:"minecraft:pottery_shard_arms_up"}}] align xyz summon minecraft:block_display run data merge entity @s {block_state:{Name:"minecraft:light_blue_terracotta"},transformation:{scale:[0.5f,0.030f,0.5f],translation:[0.25f,1.16f,0.25f]},Tags:["portal_pot"]}
-execute if entity @e[tag=newest,nbt={data:{shard_2:"minecraft:pottery_shard_prize"}}] align xyz summon minecraft:block_display run data merge entity @s {block_state:{Name:"minecraft:lime_terracotta"},transformation:{scale:[0.5f,0.030f,0.5f],translation:[0.25f,1.16f,0.25f]},Tags:["portal_pot"]}
-execute if entity @e[tag=newest,nbt={data:{shard_2:"minecraft:pottery_shard_skull"}}] align xyz summon minecraft:block_display run data merge entity @s {block_state:{Name:"minecraft:yellow_terracotta"},transformation:{scale:[0.5f,0.030f,0.5f],translation:[0.25f,1.16f,0.25f]},Tags:["portal_pot"]}
-execute align xyz summon minecraft:block_display run data merge entity @s {block_state:{Name:"minecraft:terracotta"},transformation:{scale:[0.5f,0.010f,0.5f],translation:[0.25f,1.19f,0.25f]},Tags:["portal_pot"]}
-execute if entity @e[tag=newest,nbt={data:{shard_3:"minecraft:pottery_shard_archer"}}] align xyz summon minecraft:block_display run data merge entity @s {block_state:{Name:"minecraft:purple_terracotta"},transformation:{scale:[0.5f,0.030f,0.5f],translation:[0.25f,1.20f,0.25f]},Tags:["portal_pot"]}
-execute if entity @e[tag=newest,nbt={data:{shard_3:"minecraft:pottery_shard_arms_up"}}] align xyz summon minecraft:block_display run data merge entity @s {block_state:{Name:"minecraft:light_blue_terracotta"},transformation:{scale:[0.5f,0.030f,0.5f],translation:[0.25f,1.20f,0.25f]},Tags:["portal_pot"]}
-execute if entity @e[tag=newest,nbt={data:{shard_3:"minecraft:pottery_shard_prize"}}] align xyz summon minecraft:block_display run data merge entity @s {block_state:{Name:"minecraft:lime_terracotta"},transformation:{scale:[0.5f,0.030f,0.5f],translation:[0.25f,1.20f,0.25f]},Tags:["portal_pot"]}
-execute if entity @e[tag=newest,nbt={data:{shard_3:"minecraft:pottery_shard_skull"}}] align xyz summon minecraft:block_display run data merge entity @s {block_state:{Name:"minecraft:yellow_terracotta"},transformation:{scale:[0.5f,0.030f,0.5f],translation:[0.25f,1.20f,0.25f]},Tags:["portal_pot"]}
+# Set the collar to make it easy to tell which pots are linked
+execute if entity @e[tag=newest,nbt={data:{shard_0:"minecraft:pottery_shard_archer"}}] run function portal_pots:summon/archer_0
+execute if entity @e[tag=newest,nbt={data:{shard_0:"minecraft:pottery_shard_arms_up"}}] run function portal_pots:summon/arms_up_0
+execute if entity @e[tag=newest,nbt={data:{shard_0:"minecraft:pottery_shard_prize"}}] run function portal_pots:summon/prize_0
+execute if entity @e[tag=newest,nbt={data:{shard_0:"minecraft:pottery_shard_skull"}}] run function portal_pots:summon/skull_0
+
+execute if entity @e[tag=newest,nbt={data:{shard_1:"minecraft:pottery_shard_archer"}}] run function portal_pots:summon/archer_1
+execute if entity @e[tag=newest,nbt={data:{shard_1:"minecraft:pottery_shard_arms_up"}}] run function portal_pots:summon/arms_up_1
+execute if entity @e[tag=newest,nbt={data:{shard_1:"minecraft:pottery_shard_prize"}}] run function portal_pots:summon/prize_1
+execute if entity @e[tag=newest,nbt={data:{shard_1:"minecraft:pottery_shard_skull"}}] run function portal_pots:summon/skull_1
+
+execute if entity @e[tag=newest,nbt={data:{shard_2:"minecraft:pottery_shard_archer"}}] run function portal_pots:summon/archer_2
+execute if entity @e[tag=newest,nbt={data:{shard_2:"minecraft:pottery_shard_arms_up"}}] run function portal_pots:summon/arms_up_2
+execute if entity @e[tag=newest,nbt={data:{shard_2:"minecraft:pottery_shard_prize"}}] run function portal_pots:summon/prize_2
+execute if entity @e[tag=newest,nbt={data:{shard_2:"minecraft:pottery_shard_skull"}}] run function portal_pots:summon/skull_2
+
+execute if entity @e[tag=newest,nbt={data:{shard_3:"minecraft:pottery_shard_archer"}}] run function portal_pots:summon/archer_3
+execute if entity @e[tag=newest,nbt={data:{shard_3:"minecraft:pottery_shard_arms_up"}}] run function portal_pots:summon/arms_up_3
+execute if entity @e[tag=newest,nbt={data:{shard_3:"minecraft:pottery_shard_prize"}}] run function portal_pots:summon/prize_3
+execute if entity @e[tag=newest,nbt={data:{shard_3:"minecraft:pottery_shard_skull"}}] run function portal_pots:summon/skull_3
 
 tag @e[tag=newest] remove newest
 kill @s
