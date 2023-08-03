@@ -1,6 +1,6 @@
 {
   "pack": {
-     "pack_format": 12,
-     "description": "Pots with the same decoration share an inventory."
+     "pack_format": 16,
+     "description": "Testing function Macros for Portal Pots"
   }
 }
