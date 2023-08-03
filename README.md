@@ -3,7 +3,7 @@
 This datapack requires the 1.20 snapshot datapack to function!
 
 This datapack turns decorated pots into item transporters! Create a set of matching pots (without any bricks).  
-Drop an eye of ender on top of a pot to activate it. If it's working, a row of colored lines should appear around the neck. These lines correspond to the shards used in the pot.  
+Drop an eye of ender on top of a pot to activate it. If it's working, the eye will disappear.
 Because there are 20 shard types and 4 sides to a decorated pot, there are 160000 item transport channels.  
 Each channel works across all loaded chunks in all dimensions.
 
